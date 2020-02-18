@@ -1,5 +1,5 @@
 html, body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100%;
 }
 #container {
@@ -16,21 +16,41 @@ html, body {
     clear: both;
     background-color: gray;
 }
+.footlinks {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
 h1 {
-    display: inline;
-    padding: 10px;
+    font-weight: lighter;
+    font-size: 325%;
+    padding: 0;
+    margin: 20px 0 0 0;
     color: white;
 }
 h2 {
+    font-weight: lighter;
     font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h3 {
+    font-weight: lighter;
+    font-size: xx-large;
+    margin: 10px;
 }
 a {
     display: inline-block;
     padding: 20px;
     color: white;
 }
-.tobecentered {
+.centertext {
     text-align: center;
+}
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 a:link, a:visited {
     text-decoration: none;
@@ -47,6 +67,11 @@ a:hover, a:active {
     position: relative;
     height: 476px;
 }
+#uppermaincenter {
+    margin: 0 auto;
+    height: 476px;
+    width: 50%;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -56,13 +81,31 @@ ul {
 li {
     float: right;
 }
-#uppermainleft {
-    width: 25%;
+#lowermain {
+    padding-bottom: 100px;
 }
-#uppermaincenter {
+#lowermaincenter {
     margin: 0 auto;
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-#uppermainright {
-    width: 25%;
+#logo {
+    margin-top: 70px;
+
+}
+#arrow {
+    margin-top: 100px;
+}
+#copyright {
+    font-size: smaller;
+    color: silver;
+}
+.lmcColumn {
+    width: 180px;
+    margin: 0;
+}
+.lmcColumn p {
+    font-size: 13px;
 }
