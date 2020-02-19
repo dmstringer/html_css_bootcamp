@@ -34,7 +34,7 @@ a:link, a:visited {
 a:hover, a:active {
     text-decoration: underline;
 }
-#header {
+#header { 
     display: flex;
     padding: 20px;
     height: 50px;

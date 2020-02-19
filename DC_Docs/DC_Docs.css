@@ -1,0 +1,115 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+#container {
+    min-height: 100%;
+    display: block;
+    padding-left: 350px;
+    width: 800px;
+}
+#containerhead {
+    display: flex;
+    margin-bottom: 50px;
+}
+#sidebar {
+    background-color: gray; 
+    height: 100vw;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width:300px;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 15px 0 30px 30px;
+}
+#sidebarhead {
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    color: white;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: white;
+    text-decoration: underline;
+}
+input[type=text] {
+    background-color: gray;
+    color: white;
+    text-emphasis-color: white;
+    margin-bottom: 50px;
+    width: 200px;
+    border-style: solid;
+}
+#copyright {
+    color: white;
+    font-size: small;
+    align-self: flex-end;
+}
+h1 {
+    font-weight: lighter;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 35px;
+}
+h2 {
+    font-size: small;
+}
+p {
+    font-size: small;
+}
+#thequote {
+    width: 800px;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 5px;
+    border-color: gray;
+    font-style: italic;
+}
+#thequote p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+logo {
+    float: left;
+    font-size: small;
+    text-align: center;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6px;
+}
+#headerone {
+    
+}
+#quotetop {
+    display: flex;
+}
+#quotetop div {
+    display: block;
+}
+#qtright {
+    /* line-height: 100%; */
+}
